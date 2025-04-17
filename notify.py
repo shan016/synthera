@@ -17,8 +17,8 @@ import mimetypes
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-KEY = '9ac264a8722e397e64eea67d415dd86d-4de08e90-cbfb94f6'
-DOMAIN = 'opussoft.net'
+KEY = ''
+DOMAIN = ''
 date_format = "%Y-%m-%d %H:%M:%S"
 
 def send(frm: str, to: str, subject: str, text: str, attachment: list = None) -> dict:
